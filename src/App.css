@@ -1,38 +1,170 @@
-.App {
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;    
+}
+html{
+  scroll-behavior: smooth;
+}
+.logo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.close{
+  cursor: pointer;
+  width: 30px; 
+  height: 40px;
+  display: none;
+}
+
+
+.homenav .active{
+border-bottom: 2px solid white;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+color: white;  
+}
+.homenav ul li:hover{
+border-bottom: 2px solid white;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+color: white; 
+cursor: pointer;
+transition: 2s; 
+}
+
+nav ul li{
+margin-left: 26px;
+}
+.container-fluid{
+  height: 100vh;
+  width: 100%;
+  background-image:linear-gradient(180deg, rgb(37, 33, 33),rgb(37, 35, 35),rgb(57, 57, 52)) , url("/src/Photo//night.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center center;
+  background-blend-mode:multiply;
+
+}
+.anis{
+  padding: 6px;
+  transform-origin: center;
+  animation: sample 1s infinite alternate-reverse;
   text-align: center;
 }
+/* Image aninamtions */
+.Imgani{
+  animation: sample 1s infinite alternate-reverse;
+}
+@keyframes sample {
+0%{
+  margin-top: 12px; 
+}
+25%{
+  margin-top: 8px;
+}
+50%{
+  margin-top: 4px;
+}
+75%{
+  margin-top: 1px;
+}
+100%{
+  margin-top: 0px;
+  
+}
+}
+/* Image aninamtions */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* about css */
+.about{
+  width: 80%;
+  height: auto;
+  margin: auto;
+}
+.about img{
+  width: 80%;
+}
+/* skill */
+.skill{
+  margin-top: 20px;
+  width: 80%;
+  padding-top: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* project */
+.project nav {
+background-color: rgb(20, 19, 39);
+margin: auto;
+padding: 20px;
+border-radius: 10px;
+text-decoration: none;
+}
+.project nav li {
+color: white;
+cursor: pointer;
+padding: 5px;
+border-radius: 10px;
+text-decoration: none;
+}
+.project nav li.active {
+background-color: rgb(255, 255, 255);
+color: black;
+}
+.project nav li:hover {
+background-color: rgb(255, 255, 255);
+color: black;
+}
+/* home font */
+.home h1{
+margin-top: 20px;
+font-size: 60px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.home h5{
+font-size: 25px;
+margin-top: 10px;
+margin-bottom: 10px;
+text-transform: capitalize;
+}
+.home a{
+margin-top: 20px;
+}
+.scroll-top{
+position: fixed;
+right: 30px;
+bottom: 20px;
+cursor: pointer;
+}
+@media screen and (max-width:768px) {
+  .ab{
+    width: 95%;
+    margin-top: 0px;
+    padding-top: 0px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .ab img{
+    width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+  .homes{
+    display: none;
   }
-}
+  .homenav{
+    background-color: rgb(20, 23, 39);
+    padding: 10px;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    margin-right: 0px;
+  }
+  .close{
+    display: block;
+  }
+  .about{
+    width: 100%;
+  }
+  .about img{
+    width: 100%;
+  }
+  }
