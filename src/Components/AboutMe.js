@@ -17,7 +17,7 @@ function AboutMe() {
          </ul>
      </div>
      <div className="mt-5 my-3">
-          <a href="" className="px-3 py-2 btn-outline-light text-white text-decoration-none bg-dark border border-light rounded-pill">Get Resume</a>
+          <a href="http://localhost:3000/" className="px-3 py-2 btn-outline-light text-white text-decoration-none bg-dark border border-light rounded-pill">Get Resume</a>
      </div>
     </Fragment>
   )

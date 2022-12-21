@@ -6,8 +6,8 @@ function HomeText() {
   return (
     <Fragment>
     <div className="col-md-6  home text-md-start text-center">
-                <div>
-                    <span><i className="ms-3" style={{fontSize:30}}><FaGithub /></i></span>
+                <div >
+                    <span><i  className="ms-3" style={{fontSize:30}}><FaGithub /></i></span>
                     <span><i className="ms-3" style={{fontSize:30}}><FaLinkedin/></i></span>
                 </div>
                 <h1>Hello, I'm Roshan</h1>

@@ -4,7 +4,7 @@ import TopHeading from './TopHeading'
 function Skill() {
   return (
     <Fragment>
-    <div className="container-fluid mt-5  skill">
+    <div className="container-fluid mt-2">
         <div className="row">
             <div className="col-md-12 text-white">
             <TopHeading heading="Skill" desci= "This is the contact page send your thought in mails" />

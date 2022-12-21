@@ -38,8 +38,21 @@ transition: 2s;
 nav ul li{
 margin-left: 26px;
 }
-.container-fluid{
+.container-fluids{
   height: 100vh;
+  width: 100%;
+  background-image:linear-gradient(180deg, rgb(37, 33, 33),rgb(37, 35, 35),rgb(57, 57, 52)) , url("/src/Photo//night.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center center;
+  background-blend-mode:multiply;
+
+}
+.container-fluid{
+  height:auto;
+  padding-top:20px ;
+  padding-bottom: 80px;
+
   width: 100%;
   background-image:linear-gradient(180deg, rgb(37, 33, 33),rgb(37, 35, 35),rgb(57, 57, 52)) , url("/src/Photo//night.jpg");
   background-repeat: no-repeat;
@@ -54,10 +67,14 @@ margin-left: 26px;
   animation: sample 1s infinite alternate-reverse;
   text-align: center;
 }
+
+
 /* Image aninamtions */
+
 .Imgani{
   animation: sample 1s infinite alternate-reverse;
 }
+
 @keyframes sample {
 0%{
   margin-top: 12px; 

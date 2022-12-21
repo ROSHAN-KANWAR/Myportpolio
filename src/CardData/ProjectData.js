@@ -1,9 +1,10 @@
+import blog from '../Photo/blog.jpg';
 const ProjectData = [
     {
         id:1,
         title:'Webonar websiter',
         descrip:'this the the best blog content in the world so mus tvisut it.',
-        pimage:"/Photo/blog.jpg",
+        pimage:blog,
         urls:'http://localhost:3000/',
         category:'web'
     },
@@ -11,7 +12,7 @@ const ProjectData = [
         id:2,
         title:'Webonar websiter',
         descrip:'this the the best bkdl content in the world so mus tvisut it.',
-        pimage:"/Photo/blog.jpg",
+        pimage:blog,
         urls:'http://localhost:3000/',
         category:'web'
     },
@@ -19,7 +20,7 @@ const ProjectData = [
         id:3,
         title:'Android App',
         descrip:'this the the best bkdl content in the world so mus tvisut it.',
-        pimage:"/Photo/blog.jpg",
+        pimage:blog,
         urls:'http://localhost:3000/',
         category:'design'
     },

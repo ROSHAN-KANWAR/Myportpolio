@@ -8,7 +8,7 @@ function Header() {
 
   return (
     <Fragment>
-   <div className="container-fluid" >
+   <div className="container-fluids" >
    <div className="container">  
    <div className="row text-white d-flex justify-content-center ">
        <header  className=" col-md-12 d-md-flex justify-content-between align-items-center p-2 mt-4  shadow-lg px-2 border-light align-items-center">
