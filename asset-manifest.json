@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Myportpolio/static/css/main.3b649752.css",
-    "main.js": "/Myportpolio/static/js/main.c11917cd.js",
+    "main.css": "/Myportpolio/static/css/main.d8edf179.css",
+    "main.js": "/Myportpolio/static/js/main.e64f10c5.js",
     "static/js/787.96241494.chunk.js": "/Myportpolio/static/js/787.96241494.chunk.js",
     "static/media/chandersh.jpg": "/Myportpolio/static/media/chandersh.47f4061babefe570eb95.jpg",
-    "static/media/night.jpg": "/Myportpolio/static/media/night.1da143cf6bd027194069.jpg",
+    "static/media/night2.jpg": "/Myportpolio/static/media/night2.7039ee5be6481a3c4e21.jpg",
     "static/media/blog.jpg": "/Myportpolio/static/media/blog.7084728750c36cf85ed3.jpg",
     "index.html": "/Myportpolio/index.html",
-    "main.3b649752.css.map": "/Myportpolio/static/css/main.3b649752.css.map",
-    "main.c11917cd.js.map": "/Myportpolio/static/js/main.c11917cd.js.map",
+    "main.d8edf179.css.map": "/Myportpolio/static/css/main.d8edf179.css.map",
+    "main.e64f10c5.js.map": "/Myportpolio/static/js/main.e64f10c5.js.map",
     "787.96241494.chunk.js.map": "/Myportpolio/static/js/787.96241494.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b649752.css",
-    "static/js/main.c11917cd.js"
+    "static/css/main.d8edf179.css",
+    "static/js/main.e64f10c5.js"
   ]
 }
