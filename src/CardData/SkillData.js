@@ -14,7 +14,7 @@ const ProjectData = [
     {
         id:3,
         lang:'JavaScript / React',
-        percen:'50%',
+        percen:'60%',
         colr:'bg-primary'
     },
     {

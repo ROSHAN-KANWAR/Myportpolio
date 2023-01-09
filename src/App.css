@@ -1,4 +1,3 @@
-
 *{
   padding: 0;
   margin: 0;
@@ -18,8 +17,6 @@ html{
   height: 40px;
   display: none;
 }
-
-
 .homenav .active{
 border-bottom: 2px solid white;
 border-top-left-radius: 10px;
@@ -34,14 +31,13 @@ color: white;
 cursor: pointer;
 transition: 2s; 
 }
-
 nav ul li{
 margin-left: 26px;
 }
 .container-fluids{
   height: 100vh;
   width: 100%;
-  background-image:linear-gradient(180deg, rgb(37, 33, 33),rgb(37, 35, 35),rgb(57, 57, 52)) , url("/src/Photo//night.jpg");
+  background-image:url("/src/Photo//night2.jpg");
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center center;
@@ -52,9 +48,8 @@ margin-left: 26px;
   height:auto;
   padding-top:20px ;
   padding-bottom: 80px;
-
   width: 100%;
-  background-image:linear-gradient(180deg, rgb(37, 33, 33),rgb(37, 35, 35),rgb(57, 57, 52)) , url("/src/Photo//night.jpg");
+  background-image:url("/src/Photo//night2.jpg");
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center center;
