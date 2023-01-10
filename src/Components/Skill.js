@@ -4,10 +4,10 @@ import TopHeading from './TopHeading'
 function Skill() {
   return (
     <Fragment>
-    <div className="container-fluid mt-2">
+    <div className="container-fluid mt-4 mb-4" id="skill">
         <div className="row">
             <div className="col-md-12 text-white">
-            <TopHeading heading="Skill" desci= "This is the contact page send your thought in mails" />
+            <TopHeading heading="Skill" desci= "This is the my technical skill in the following technologies" />
       
             </div>
           

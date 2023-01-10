@@ -6,26 +6,22 @@ import About from './Components/About';
 import { Fragment } from 'react';
 import Skill from './Components/Skill';
 import Project from './Components/Project';
-
+import Home from './Components/Home';
 import Contact from './Components/Contact';
 function App() {
   return (
     <Fragment>
-    <div className="">
-     <Header />
+    <div className="container-fluids">
+    <div className="container"> 
+    <Header />
+    <Home />
     </div>
-    <div className='mb-5'>
-    <About />
     </div>
-    <div className=''>
-    <Skill />
-    </div>
-    <div className='mb-4'>
+     <About /> 
+    <Skill /> 
     <Project />
-    </div>
-    <div className=''>
     <Contact />
-    </div>
+
     </Fragment>
   );
 }
