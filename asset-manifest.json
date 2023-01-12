@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Myportpolio/static/css/main.9bed399d.css",
-    "main.js": "/Myportpolio/static/js/main.794d4efa.js",
+    "main.js": "/Myportpolio/static/js/main.b814952d.js",
     "static/js/787.96241494.chunk.js": "/Myportpolio/static/js/787.96241494.chunk.js",
     "static/media/roshan-kanwar.jpg": "/Myportpolio/static/media/roshan-kanwar.47f4061babefe570eb95.jpg",
     "static/media/private-albums.png": "/Myportpolio/static/media/private-albums.ceb733e7e5a174d42b1c.png",
@@ -12,11 +12,11 @@
     "static/media/logo.png": "/Myportpolio/static/media/logo.6610237950dec7d3bea0.png",
     "index.html": "/Myportpolio/index.html",
     "main.9bed399d.css.map": "/Myportpolio/static/css/main.9bed399d.css.map",
-    "main.794d4efa.js.map": "/Myportpolio/static/js/main.794d4efa.js.map",
+    "main.b814952d.js.map": "/Myportpolio/static/js/main.b814952d.js.map",
     "787.96241494.chunk.js.map": "/Myportpolio/static/js/787.96241494.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9bed399d.css",
-    "static/js/main.794d4efa.js"
+    "static/js/main.b814952d.js"
   ]
 }
