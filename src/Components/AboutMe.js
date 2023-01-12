@@ -19,7 +19,7 @@ function AboutMe() {
          </ul>
      </div>
      <div className="mt-5 my-3">
-          <a href="http://localhost:3000/" className="cards px-3 py-2 btn-outline-light text-white text-decoration-none bg-dark border border-light rounded-pill">Get Resume</a>
+          <a href="https://drive.google.com/file/d/1OIsO6VO_H-3PRdmpOeAKBJ7dpRk4fNu-/view?usp=drivesdk"  target="_blank" rel="noreferrer noopener" className="cards px-3 py-2 btn-outline-light text-white text-decoration-none bg-dark border border-light rounded-pill">Get Resume</a>
      </div>
     </Fragment>
   )
