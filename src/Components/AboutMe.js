@@ -9,7 +9,7 @@ function AboutMe() {
     in <b>Computer Science</b> This experience has helped me grow as a person and improve my technical skills..</p>
      <div className="">
          <h5 className="fw-bold mb-3">Here are few Highlight :</h5>
-         <ul>
+         <ul style={{fontSize:'16px',letterSpacing:'1px',lineHeight:'27px'}}>
              <li>Full stack web development.</li>
              <li>Interactive front end as per the design.</li>
              <li>Mobile Responsive Websites.</li>

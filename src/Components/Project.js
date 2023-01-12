@@ -13,8 +13,10 @@ setitems(upitems);
   }
   return (
     <Fragment>
-    <div className="container about mt-4 mb-4" id="project">
-    <div className="row text-center mt-4 text-dark">         
+    <div id="project"></div>
+    <div className="container about mt-4 mb-4" >
+    <div className="row text-center mt-4 text-dark">  
+            {/* top heading sections */}      
     <TopHeading heading="Project" desci= "Check out my some project in the following" />
     </div>
     <div className="row text-center d-flex justify-content-center mt-3">
@@ -26,6 +28,7 @@ setitems(upitems);
               </nav>
         </div>
     </div>
+            {/* for loop for project detail  */}
     <div className="row mt-5 px-4" style={{ zIndex:-1 }}>
 
     {

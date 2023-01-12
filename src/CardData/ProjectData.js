@@ -1,4 +1,4 @@
-import Blog from '../Photo/blog.jpg';
+import Meesho from '../Photo/meesho-ui-clone.png';
 import Abhidha from '../Photo/abhidha-webapp-django.png';
 import Albums from '../Photo/private-albums.png';
 import Technos from '../Photo/technos-demo-react.png';
@@ -7,9 +7,9 @@ const ProjectData = [
     {
         id:1,
         title:'Meesho Clone',
-        descrip:'this the the best blog content in the world so mus tvisut it.',
-        pimage:Blog,
-        urls:'http://localhost:3000/',
+        descrip:'Meesho ui clone with functionality. Used technologies html.css ,js, reactjs, tailwind css',
+        pimage:Meesho,
+        urls:'https://github.com/ROSHAN-KANWAR/meesho-ui',
         category:'react'
     },
     {

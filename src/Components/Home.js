@@ -7,7 +7,9 @@ function Home() {
   <Fragment>
   <div className='container' id="home">
   <div className="row text-white  d-flex justify-content-center align-items-center" style={{ height:'80vh'}}>
-            <HomeText />
+  {/* Home text part */}         
+  <HomeText />
+    {/* Home text part */}   
           <div className="col-md-6 text-center d-md-block d-none">
             <img  src={Roshan} loading="lazy" alt="Roshan kanwar portpolio website" className="Imgani rounded-pill border border-4 border-light" style={{height:300, width:300}} />
           </div>

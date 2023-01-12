@@ -4,21 +4,21 @@ import TopHeading from './TopHeading'
 function Skill() {
   return (
     <Fragment>
-    <div className="container-fluid mt-4 mb-4" id="skill">
-        <div className="row">
-            <div className="col-md-12 text-white">
+    <div  id="skill"></div>
+    <div className="container-fluid mt-4 mb-4">
+        <div className="row text-white">
+        {/* top heading sections */}
             <TopHeading heading="Skill" desci= "This is the my technical skill in the following technologies" />
-      
             </div>
           
             <div className="row px-2 m-auto text-white d-flex justify-content-center">
-               
+                      {/* Skill sections with percentage*/} 
                 <SkillCard/>
                 
               
             </div>
             </div>
-            </div>
+            
 
        </Fragment>
   )

@@ -7,8 +7,8 @@ function HomeText() {
     <Fragment>
     <div className="col-md-6  home text-md-start text-center">
                 <div >
-                    <span><i  className="ms-3" style={{fontSize:30}}><a  href="https://github.com/ROSHAN-KANWAR" target="_blank" className="text-white"> <FaGithub /></a></i></span>
-                    <span><i className="ms-3" style={{fontSize:30}}><a href="https://in.linkedin.com/in/roshan-kanwar-b80150170" target="_blank" className="text-white"> <FaLinkedin/> </a></i></span>
+                    <i  className="ms-3" style={{fontSize:30}}><a  href="https://github.com/ROSHAN-KANWAR" target="_blank" className="text-white"  rel="noreferrer noopener"> <FaGithub /></a></i>
+                   <i className="ms-3" style={{fontSize:30}}><a href="https://in.linkedin.com/in/roshan-kanwar-b80150170" target="_blank" className="text-white"  rel="noreferrer noopener"> <FaLinkedin/> </a></i>
                 </div>
                 <h1>Hello, I'm Roshan</h1>
                 <h3 className="m-2">Web Developer</h3>
