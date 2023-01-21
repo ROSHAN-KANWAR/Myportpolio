@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Myportpolio/static/css/main.9bed399d.css",
-    "main.js": "/Myportpolio/static/js/main.b814952d.js",
+    "main.css": "/Myportpolio/static/css/main.9da52513.css",
+    "main.js": "/Myportpolio/static/js/main.788a136f.js",
     "static/js/787.96241494.chunk.js": "/Myportpolio/static/js/787.96241494.chunk.js",
     "static/media/roshan-kanwar.jpg": "/Myportpolio/static/media/roshan-kanwar.47f4061babefe570eb95.jpg",
     "static/media/private-albums.png": "/Myportpolio/static/media/private-albums.ceb733e7e5a174d42b1c.png",
     "static/media/technos-demo-react.png": "/Myportpolio/static/media/technos-demo-react.18bd907a82171fdeac8a.png",
-    "static/media/night2.jpg": "/Myportpolio/static/media/night2.7039ee5be6481a3c4e21.jpg",
     "static/media/abhidha-webapp-django.png": "/Myportpolio/static/media/abhidha-webapp-django.73f0f12624cceb938a7b.png",
+    "static/media/night2.webp": "/Myportpolio/static/media/night2.03c3987bbc2151e1b0eb.webp",
     "static/media/meesho-ui-clone.png": "/Myportpolio/static/media/meesho-ui-clone.12fa39b56b5df1b78b84.png",
     "static/media/logo.png": "/Myportpolio/static/media/logo.6610237950dec7d3bea0.png",
     "index.html": "/Myportpolio/index.html",
-    "main.9bed399d.css.map": "/Myportpolio/static/css/main.9bed399d.css.map",
-    "main.b814952d.js.map": "/Myportpolio/static/js/main.b814952d.js.map",
+    "main.9da52513.css.map": "/Myportpolio/static/css/main.9da52513.css.map",
+    "main.788a136f.js.map": "/Myportpolio/static/js/main.788a136f.js.map",
     "787.96241494.chunk.js.map": "/Myportpolio/static/js/787.96241494.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9bed399d.css",
-    "static/js/main.b814952d.js"
+    "static/css/main.9da52513.css",
+    "static/js/main.788a136f.js"
   ]
 }
